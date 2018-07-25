@@ -1,0 +1,200 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+p, h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero-intro h1{
+
+
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-transform: inherit;
+    font-size: 90px;
+}
+
+#hero-intro .entry-content-wrapper{
+    max-width: 629px;
+    float: right;
+}
+
+#hero-intro .av_textblock_section p{
+    text-align: left;
+    /*margin-top: 72px;*/
+    font-size: 21px;
+
+    line-height: 27px;
+}
+
+/*remove logo*/
+.logo.bg-logo{
+    display: none;
+}
+
+/*intro slider some products*/
+
+#products-intro h2, #products-intro h3{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#products-intro h2{
+    font-size: 5em;
+}
+
+#products-intro h3{
+    font-size: 4em;
+}
+
+#what-intro h2{
+    font-weight: 300;
+    font-size: 50px;
+    text-transform: inherit;
+}
+
+#what-intro p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7098039215686275);
+    margin: 0 0 36px 0;
+}
+
+#what-intro h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#what-intro i {
+    font-size: 140px
+}
+#what-intro .what-we-do_right-text .av_textblock_section{
+    opacity: .5;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+#what-intro .what-we-do_right-text .av_textblock_section.active{
+    opacity: 1;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+#what-intro .what-we-do_right-text .av_textblock_section{
+    cursor: pointer;
+
+}
+#what-intro .imac-holder{
+    position: absolute;
+    width: 100%;
+    opacity: .5;
+}
+
+#what-intro .what-we-do_icon .av_textblock_section{
+    text-align: center;
+    padding-top: 20px;
+}
+#what-intro .slider-items p{
+    position: absolute; 
+    margin: 0;
+    width: 100%;
+}
+#what-intro .slider-items{
+    overflow: hidden;
+    height: 217px;
+    width: 387px;
+    left: -15px;
+    top: 17px;
+    position: absolute;
+
+}
+
+#what-intro .slider-items p img{
+    -webkit-animation-duration:5s;
+    animation-duration:5s;
+    -webkit-animation-name:scrollCoverBrowser;
+    animation-name:scrollCoverBrowser; 
+    -webkit-animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000);
+    animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000); 
+    -webkit-animation-direction: alternate; 
+            animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+
+            width: 100%;
+}
+
+@-webkit-keyframes scrollCoverBrowser {
+    10% {
+        -webkit-transform: translateY(0%);
+            -ms-transform: translateY(0%);
+                transform: translateY(0%);
+    }
+
+    50% {
+        -webkit-transform: translateY(-25%);
+            -ms-transform: translateY(-25%);
+                transform: translateY(-25%);
+    }
+
+    100% {
+        -webkit-transform: translateY(calc(-50% ));
+            -ms-transform: translateY(calc(-50%));
+                transform: translateY(calc(-50%));
+    }
+}
+
+.custom-button a.avia-button{
+    color: #fff;
+    border-color: #fff;
+    border: 1px solid #fff;
+    letter-spacing: 3px;
+    font-size: 10px;
+    text-transform: uppercase;
+    background: transparent;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+.custom-button a.avia-button span{
+    color: #fff;
+}
+
+.custom-button a.avia-button:hover span{
+    color: #0066da;
+   -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+
+
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}
