@@ -141,6 +141,33 @@ background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-at
 
     /*top: 0;*/
 /*}*/
+#header_main span.logo.bg-logo{
+    display: none;
+}
+#header_main{
+    border: none;
+}
+#header_main .menu-item{
+    display: none;
+}
+
+#header .header_bg{
+    background: transparent;
+}
+
+.av-burger-menu-main{
+    display: block;
+}
+
+.blue-color_menu .av-hamburger-inner{
+    background-color: #0067da;
+}
+.blue-color_menu .av-hamburger-inner:before{
+    background-color: #0067da;
+}
+.blue-color_menu .av-hamburger-inner:after{
+    background-color: #0067da;
+}
 
 .background-svg{
     background: url(https://vectr.com/rikkkk/asrWeUPmB.svg?width=640&height=640&select=asrWeUPmBpage0) /* image */ center center / 0 /* position / size */ no-repeat /* repeat */ scroll /* attachment */ padding-box /* origin */ content-box /* clip */ transparent;

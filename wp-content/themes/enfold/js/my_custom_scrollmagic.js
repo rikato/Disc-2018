@@ -22,7 +22,7 @@
             triggerHook: 1,
             duration: '45%'
         })
-        .setTween(TweenMax.fromTo('.background-svg', 1, {backgroundSize: '275vh', ease:Power0.easeNone}, {backgroundSize: '175vh', ease:Power0.easeNone}))
+        .setTween(TweenMax.fromTo('.background-svg', 1, {backgroundSize: '275vh', ease:Power0.easeNone}, {backgroundSize: '174vh', ease:Power0.easeNone}))
         // .addIndicators()
             // .reverse(false)
         .addTo(controller);
@@ -32,8 +32,8 @@
             triggerHook: 0,
             duration: '50%'
         })
-            .setTween(TweenMax.fromTo('.background-svg', 1, {backgroundSize: '175vh', ease:Power0.easeNone}, {backgroundSize: '575vh', ease:Power0.easeNone}))
-            .addIndicators()
+            .setTween(TweenMax.fromTo('.background-svg', 1, {backgroundSize: '174vh', ease:Power0.easeNone}, {backgroundSize: '575vh', ease:Power0.easeNone}))
+            // .addIndicators()
             // .reverse(false)
             .addTo(controller);
 
@@ -60,6 +60,20 @@
             //     colorEnd: 'pink'
             // })
             .addTo(controller);
+        });
+
+
+
+        $('.white-bg').each(function (index) {
+            //build scene
+            var menuBurgerColor = new ScrollMagic.Scene({
+                triggerElement: this,
+                triggerHook: 0,
+                duration: $(this).outerHeight(true),
+            })
+                .setClassToggle('.av-hamburger', 'blue-color_menu')
+                // .addIndicators()
+                .addTo(controller);
         });
 
     });

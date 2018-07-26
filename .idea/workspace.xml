@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93dc08f2-bb7f-4eec-897a-ef580fae41ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/enfold/js/my_custom_scrollmagic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/enfold/css/custom.css" afterPath="$PROJECT_DIR$/wp-content/themes/enfold/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/enfold/js/my_custom.js" afterPath="$PROJECT_DIR$/wp-content/themes/enfold/js/my_custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/enfold/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/enfold/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/enfold/js/my_custom_scrollmagic.js" afterPath="$PROJECT_DIR$/wp-content/themes/enfold/js/my_custom_scrollmagic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/dynamic_avia/avia-footer-scripts-5b480bf131665bfe31981e16309d17d6.js" afterPath="$PROJECT_DIR$/wp-content/uploads/dynamic_avia/avia-footer-scripts-5b480bf131665bfe31981e16309d17d6.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/dynamic_avia/enfold.css" afterPath="$PROJECT_DIR$/wp-content/uploads/dynamic_avia/enfold.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +22,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/enfold/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="143" column="0" lean-forward="true" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+            <state relative-caret-position="620">
+              <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -35,8 +32,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/enfold/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="350" column="6" lean-forward="true" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
+            <state relative-caret-position="-6">
+              <caret line="319" column="39" lean-forward="false" selection-start-line="319" selection-start-column="39" selection-end-line="319" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -45,8 +42,8 @@
       <file leaf-file-name="my_custom_scrollmagic.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/enfold/js/my_custom_scrollmagic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+            <state relative-caret-position="935">
+              <caret line="75" column="31" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -227,7 +224,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30112000" />
+    <option name="totallyTimeSpent" value="33339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1407" height="1407" extended-state="0" />
@@ -619,24 +616,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/enfold/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="143" column="0" lean-forward="true" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+        <state relative-caret-position="620">
+          <caret line="166" column="1" lean-forward="true" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/enfold/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="350" column="6" lean-forward="true" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
+        <state relative-caret-position="-6">
+          <caret line="319" column="39" lean-forward="false" selection-start-line="319" selection-start-column="39" selection-end-line="319" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/enfold/js/my_custom_scrollmagic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        <state relative-caret-position="935">
+          <caret line="75" column="31" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
           <folding />
         </state>
       </provider>
