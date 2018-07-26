@@ -6,6 +6,73 @@
 p, h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
 }
+p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 5em;
+    text-transform: inherit !important;
+    font-weight: 600;
+}
+
+span.thin-text{
+    font-weight: 300;
+}
+
+#scroll-top-link.avia_pop_class {
+    opacity: 0.7;
+    visibility: hidden;
+}
+
+/*
+background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit;
+*/
+
+#header_main ul li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+#header_main ul li.current-menu-item > a{
+    font-weight: 600;
+}
+#hero-intro{
+
+    /*background:*/
+            /*url(https://vectr.com/tmp/i29LoUdy86/a13QCavAY7.svg?width=640&height=640&select=a13QCavAY7page0)    !* image *!*/
+            /*25vw center / 300vh   !* position / size *!*/
+            /*no-repeat                !* repeat *!*/
+            /*scroll                  !* attachment *!*/
+            /*padding-box              !* origin *!*/
+            /*content-box              !* clip *!*/
+            /*red;                     !* color *!*/
+    /*overflow: hidden;*/
+}
+#hero-intro:before{
+    content : "";
+    display: block;
+
+
+    background:
+            url(https://vectr.com/tmp/c1elxAvSbP/eYWEGkWWH.svg?width=640&height=640&select=eYWEGkWWHpage0)    /* image */
+            center center / 400px   /* position / size */
+            no-repeat                /* repeat */
+            scroll                  /* attachment */
+            padding-box              /* origin */
+            content-box              /* clip */
+            transparent;                     /* color */
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .1;
+
+    top: 16px;
+}
+
 
 #hero-intro h1{
 
@@ -49,6 +116,55 @@ p, h1, h2, h3, h4, h5, h6{
     font-size: 4em;
 }
 
+#what-intro{
+    position: relative;
+}
+
+/*#what-intro:before{*/
+    /*content : "";*/
+    /*display: block;*/
+
+
+    /*background:*/
+            /*url(https://vectr.com/rikkkk/asrWeUPmB.svg?width=640&height=640&select=asrWeUPmBpage0)    !* image *!*/
+            /*center center / 175vh   !* position / size *!*/
+            /*no-repeat                !* repeat *!*/
+            /*scroll                  !* attachment *!*/
+            /*padding-box              !* origin *!*/
+            /*content-box              !* clip *!*/
+            /*transparent;                     !* color *!*/
+
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*opacity: .1;*/
+
+    /*top: 0;*/
+/*}*/
+
+.background-svg{
+    background: url(https://vectr.com/rikkkk/asrWeUPmB.svg?width=640&height=640&select=asrWeUPmBpage0) /* image */ center center / 0 /* position / size */ no-repeat /* repeat */ scroll /* attachment */ padding-box /* origin */ content-box /* clip */ transparent;
+    opacity: .1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#what-intro .what-we-do_text{
+    opacity: 0;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+#what-intro .what-we-do_text.fade-in{
+    opacity: 1;
+}
+
 #what-intro h2{
     font-weight: 300;
     font-size: 50px;
@@ -59,6 +175,7 @@ p, h1, h2, h3, h4, h5, h6{
     font-size: 16px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.7098039215686275);
+    color: #0067da;
     margin: 0 0 36px 0;
 }
 
@@ -78,7 +195,7 @@ p, h1, h2, h3, h4, h5, h6{
     transition: .2s ease-out;
 }
 #what-intro .what-we-do_right-text .av_textblock_section.active{
-    opacity: 1;
+ 
     -webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
     -o-transition: .2s ease-out;
@@ -86,12 +203,18 @@ p, h1, h2, h3, h4, h5, h6{
 }
 #what-intro .what-we-do_right-text .av_textblock_section{
     cursor: pointer;
-
+    opacity: 0;
 }
+
+#what-intro .what-we-do_right-text .av_textblock_section.fade-in{
+    opacity: 1;
+}
+
+
 #what-intro .imac-holder{
     position: absolute;
     width: 100%;
-    opacity: .5;
+    /*opacity: .5;*/
 }
 
 #what-intro .what-we-do_icon .av_textblock_section{
@@ -107,25 +230,30 @@ p, h1, h2, h3, h4, h5, h6{
     overflow: hidden;
     height: 217px;
     width: 387px;
-    left: -15px;
-    top: 17px;
+    left: -16px;
+    top: -34px;
     position: absolute;
+}
 
+#what-intro .container, #what-intro .template-page.content{
+    position: unset;
 }
 
 #what-intro .slider-items p img{
-    -webkit-animation-duration:5s;
-    animation-duration:5s;
-    -webkit-animation-name:scrollCoverBrowser;
-    animation-name:scrollCoverBrowser; 
-    -webkit-animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000);
-    animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000); 
-    -webkit-animation-direction: alternate; 
-            animation-direction: alternate;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+    /*-webkit-animation-duration:5s;*/
+    /*animation-duration:5s;*/
+    /*-webkit-animation-name:scrollCoverBrowser;*/
+    /*animation-name:scrollCoverBrowser; */
+    /*-webkit-animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000);*/
+    /*animation-timing-function: cubic-bezier(1.000, 0.005, 0.305, 1.000); */
+    /*-webkit-animation-direction: alternate; */
+            /*animation-direction: alternate;*/
+    /*-webkit-animation-iteration-count: infinite;*/
+            /*animation-iteration-count: infinite;*/
 
             width: 100%;
+    /*position: absolute;*/
+    /*top: 0;*/
 }
 
 @-webkit-keyframes scrollCoverBrowser {
@@ -148,9 +276,24 @@ p, h1, h2, h3, h4, h5, h6{
     }
 }
 
+@-webkit-keyframes introLogoAnim {
+    10% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+
+    }
+
+
+    100% {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
 .custom-button a.avia-button{
     color: #fff;
-    border-color: #fff;
     border: 1px solid #fff;
     letter-spacing: 3px;
     font-size: 10px;
@@ -174,7 +317,99 @@ p, h1, h2, h3, h4, h5, h6{
     transition: .2s ease-out;
 }
 
+.custom-button.blue-button a.avia-button span{
+    color: #0066da;
+}
 
+.custom-button.blue-button a.avia-button{
+    border: 1px solid #0066da !important;
+}
+
+.custom-button.blue-button a.avia-button:hover span{
+    color: #FFF;
+
+}
+
+.custom-button.blue-button a.avia-button:hover{
+    background: #0066da;
+
+}
+
+
+
+#come-over{
+    max-height: 500px;
+}
+
+#come-over .come-over_image{
+    float: right;
+    margin: 0;
+}
+#come-over .come-over_text > section, #come-over .come-over_text > div{
+    float: right;
+    max-width: 655px;
+    width: 100%;
+}
+
+#come-over .come-over_text{
+    width: 50%;
+    padding: 75px 15px;
+    padding: 137px 15px;
+}
+
+
+#come-over .container{
+    max-width: 100%;
+    padding: 0;
+}
+#come-over .container .template-page.content{
+    padding: 0;
+}
+
+#come-over .come-over_image .come-over_image-inner{
+    width: 100%;
+    height: 500px;
+    background: url(https://images.unsplash.com/photo-1508088405209-fbd63b6a4f50?ixlib=rb-0.3.5&s=94ddb385f67cdf7143fc10f7f8b25bbe&auto=format&fit=crop&w=1651&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#come-over .come-over_text h2{
+    font-size: 5em;
+    text-transform: inherit;
+}
+
+
+#about{
+    overflow: hidden;
+    position: relative;
+}
+
+#about .av_textblock_section  p {
+    color: rgba(255, 255, 255, 0.70);
+}
+
+#about:before{
+    content : "";
+    display: block;
+
+
+    background:
+    url(https://vectr.com/rikkkk/asrWeUPmB.svg?width=640&height=640&select=asrWeUPmBpage0)    /* image */
+    center center / 175vh  /* position / size */
+    no-repeat                /* repeat */
+    scroll                  /* attachment */
+    padding-box              /* origin */
+    content-box              /* clip */
+    transparent;                     /* color */
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .1;
+}
 
 
 /*

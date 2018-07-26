@@ -334,9 +334,35 @@ function my_custom_scripts() {
         get_stylesheet_directory_uri() . '/js/my_custom.js',
         array( 'jquery' )
     );
+    wp_enqueue_script(
+        'tweenmax',
+        'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js',
+        array( 'jquery' )
+    );
+    wp_enqueue_script(
+        'scrollmagic',
+        '//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js',
+        array( 'jquery' )
+    );
+    wp_enqueue_script(
+        'scrollmagic_gsap',
+        'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js',
+        array( 'jquery' )
+    );
+    wp_enqueue_script(
+        'addindicator',
+        '//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js',
+        array( 'jquery' )
+    );
+    wp_enqueue_script(
+        'custom_scrollmagic',
+        get_stylesheet_directory_uri() . '/js/my_custom_scrollmagic.js',
+        array( 'jquery' )
+    );
+
 }
 
-add_action( 'wp_enqueue_scripts', 'my_custom_scripts' ); 
+add_action( 'wp_enqueue_scripts', 'my_custom_scripts' );
 
 
 if(!function_exists('avia_register_frontend_scripts'))
